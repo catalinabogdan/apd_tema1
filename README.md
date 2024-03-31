@@ -3,7 +3,7 @@
 Tema 1 APD
 Bogdan Elena-Catalina
 
-    The file tema1_par.c contains the parallelization of the algorithm that generates contours of topological maps using the Marching Squares Algorithm.
+The file tema1_par.c contains the parallelization of the algorithm that generates contours of topological maps using the Marching Squares Algorithm.
 
 The basic functions of this approach are those contained in the initial skeleton, which are subsequently modified to allow the parallel execution of the algorithm, with each thread handling certain lines of pixels of the input image, determined by the start and end values.
 
